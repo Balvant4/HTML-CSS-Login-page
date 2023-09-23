@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: #fff;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('desktop-wallpaper-login-page-login.jpg') no-repeat center center / cover;
+    height: 100vh;
+    text-align: center;
+  }
+  .showcase-text{
+    margin: 34px;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.logo {
+    width: 300px;
+    margin: 47px;
+    margin-top: -8rem;
+}
+
+.button {
+    display: flex;
+    width: 345px;
+    background-color: #181818;
+    border: 1px solid #555;
+    height: 24px;
+    color: #ccc;
+    outline: none;
+
+}
+
+.sign-color {
+    width: 350px;
+    margin: 10px;
+    background-color: orange;
+    border: none;
+    height: 28px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sign-color:hover {
+    background-color: #fc6f03;
+}
+
+.space {
+    margin: 8px;
+}
+
+.link>a {
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.link>a:hover {
+    color: #fc6f03;
+}
+
+.secondary-btn {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 26px;
+}
+
+.secondary-btn:hover {
+    border: 1px solid #fc6f03;
+    color: #fc6f03;
+}
+
+#main-footer {
+    position: fixed;
+    /* Fixed position */
+    bottom: 4px;
+    /* Footer at the bottom of the viewport */
+    padding: 10px 0;
+    /* Padding for the footer content */
+    text-align: center;
+    /* Center align the footer content */
+}
+
+#main-footer>a {
+    font-size: 1rem;
+    color: orange;
+}
+
+
